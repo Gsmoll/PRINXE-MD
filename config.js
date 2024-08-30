@@ -8,26 +8,26 @@ dotenv.config()
 
 const ownervb = process.env.OWNERS;
 if (!ownervb){
-   throw new Error("OWNERS env is not set");
+   throw new Error("SEAN");
 }
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [SEAN];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(SEAN);
 }
 
 //💌------------------------------------------💌
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['263778708708'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -125,9 +125,9 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.princebot = 'GSMOLL'
+global.packname = 'SEAN' 
+global.author = 'SEAN' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
